@@ -122,10 +122,19 @@
                 <div class="col-lg-6">
                     <h2>Sign up for our Beta:</h2>
                 </div>
-                <div class="beta-sign-up">
-                  <input type="submit" value="SUBMIT">
-                  <input type="email" placeholder="Email Address" class="email-input">
-                </div>
+                <!---
+                <form class="beta-sign-up" id="post">
+                    <input type="submit" value="SUBMIT"/>
+                    <input type="email" placeholder="Email Address" class="email-input"/>
+                </form>
+                -->
+                <form class="beta-sign-up" id='foo'>
+                  <p>
+                    <input name="email" type="email" placeholder="Email Address" class="email-input"/>
+                  </p>
+                  <input type="submit" value="SUBMIT"/>
+                     
+                </form>
             </div>
 
         </div>
@@ -159,14 +168,15 @@
                             <a href="https://www.facebook.com/furnmove" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
-                </div>
             </div>
         </div>
     </footer>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+
+    <!--Spreadsheets-->
+    <script src="js/google-sheet.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
