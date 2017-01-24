@@ -161,7 +161,10 @@ input {
 }
 
 .beta-sign-up {
+  position: relative;
   height: 60px;
+  right: 20px;
+  top: -10px;
 }
 
 .footer-social-buttons {
